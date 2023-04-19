@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/facts/mock-repo/",
+            "args": [
+                "--dart-define",
+                "url=https://cat-fact.herokuapp.com/facts",
+                "--dart-define",
+                "isMock=true",
+            ]
+        },
+        {
+            "name": "flutter_guidelines",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "url=https://cat-fact.herokuapp.com/facts",
+                "--dart-define",
+                "isMock=false",
+            ]
+        },
+        // {
+        //     "name": "flutter_guidelines (profile mode)",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "profile"
+        // },
+        // {
+        //     "name": "flutter_guidelines (release mode)",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "release"
+        // }
+    ]
+}
