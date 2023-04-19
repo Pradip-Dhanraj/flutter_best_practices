@@ -1,0 +1,11 @@
+{
+  "click": "Click",
+  "@click": {
+    "description": "Click here text for app"
+  },
+
+  "fetching": "fetching",
+  "@fetching": {
+    "description": "Fetching here text for app"
+  }
+}
